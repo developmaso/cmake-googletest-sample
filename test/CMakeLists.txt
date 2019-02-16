@@ -34,7 +34,7 @@ set(SRCS
 )
 
 foreach(NAME IN LISTS SRCS)
-  # "class_a_test.cpp" -> "class_a"
+  # "file_name_test.cpp" -> "file_name"
   string(REGEX REPLACE _test\.cpp  "" test_name ${NAME})
   add_tests(${test_name})
 endforeach()
