@@ -1,7 +1,6 @@
 class ClassB {
  public:
-  ClassB()  = default;
-  ~ClassB() = default;
-  int sumB1(int x, int y);
-  int sumB2(int x, int y);
+  ClassB() = default;
+  int SumB1(int x, int y);
+  int SumB2(int x, int y);
 };
